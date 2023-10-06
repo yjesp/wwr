@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <link rel = "stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -38,13 +39,14 @@
         <section class="camping-card">
             <img class="card-img" src="images/camping.jpg" alt="tent in mountain">
             <img class="icon" src="images/fire_icon.png" alt="fire icon">
-            <h2>Rapids</h2>
+            <h2>Camping</h2>
         </section>
         <section class="rapids-card">
             <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
             <img class="icon" src="images/oars.png" alt="oars icon">
             <h2>Rapids</h2>
         </section>
+        <div id="background"></div>
         <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
         <section class="msg">
             <h2>More Than Just The Thrill</h2>
@@ -57,7 +59,7 @@
     <p><a href="site-plan-rafting.html">Site Plan</a></p>
     <p><a href="contactus.html">Contact Us</a></p>
     <div class="social">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb icon">
         </a>
         <a href="https://twitter.com">
@@ -68,6 +70,5 @@
         </a>
     </div>
 </footer>
-    
 </body>
 </html>
