@@ -376,7 +376,12 @@ nav {
   z-index: -1;
 }
 
-
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 10px;
+}
 
 .card-img, .mountains {
   width: 100%;
